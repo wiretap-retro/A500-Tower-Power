@@ -4,7 +4,7 @@ A small ATX to Amiga 500 power adapter for towerized A500 builds. Includes 3 fan
 ![pic](pic.jpg)
 
 ## Intro
-I developed this adapter for my Amiga 500 tower project. It mounts to the motherboard tray or any other convenient area inside the case via two standoffs. It allows you to plug in a standard ATX power supply and provides a 4-pin molex connector along with 3 standard fan headers. 
+I developed this adapter for my Amiga 500 tower project. It mounts to the motherboard tray or any other convenient area inside the case via two standoffs. It allows you to plug in a standard ATX power supply and provides a 4-pin molex connector (for the A500 power connector) along with 3 standard fan headers. 
 
 ## Assembly / Installation
 * Order the PCB from your fabricator of choice. (JLCPCB, PCBway, OSH Park, etc.)
