@@ -9,7 +9,7 @@ I developed this adapter for my Amiga 500 tower project. It mounts to the mother
 ## Assembly / Installation
 * Order the PCB from your fabricator of choice. (JLCPCB, PCBway, OSH Park, etc.) This is a 4-layer PCB, so JLCPCB will probably be cheapest.
 * Order the parts per the BOM. Mouser part numbers are included. A standard 2-pin 2.54mm pin header, 3mm LED, and a standard resistor are also needed, but who doesn't have those laying around?
-* Solder the J3 pin header, LED, and resistor first.
+* Solder the J3 pin header, LED, and resistor first. Alternatively, you can put another 2x2.54mm pin header in place of the LED to use it as a case power LED.
 * Solder the 4-pin molex, 24-pin ATX header, and the 3-pin fan headers.
 * Obtain an A500 power connector either from a failed power supply or order a new connector.
 * From an old ATX power supply, molex passthrough, or molex splitter, clip the leads of a 4-pin molex so you have only the female end with long leads.
