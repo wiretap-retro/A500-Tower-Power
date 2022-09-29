@@ -19,7 +19,7 @@ I developed this adapter for my Amiga 500 tower project. It mounts to the mother
 * Power on the Amiga Tower and enjoy.
 
 ## Revision Info
-* Rev 1: Moved power LED from PG over to the 5V line. The PG signal turns off after the ATX power supply tests itself. Important if you wanted to use it as a power LED on the front of the case by putting a 2-pin header there instead.
+* Rev 1: Moved power LED from PG over to the 5V line. The PG signal turns off after the ATX power supply tests itself, depending on the PSU. Important if you wanted to use it as a power LED on the front of the case by putting a 2-pin header there instead.
 * Rev 0: Initial rev -- tested/working
 
 ## Misc
