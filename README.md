@@ -18,5 +18,9 @@ I developed this adapter for my Amiga 500 tower project. It mounts to the mother
 * Mount the power adapter in a conventient location in your case, then plug in all the power connectors. The 2-pin PWR switch is for a standard toggle switch (or latching push button) for controlling the ATX power supply on/off function. I recommend swapping out the ATX case power button with a latching push button if you can find one that works for you. Alternatively, you can place a jumper on these pins and utilize the switch on the rear of the ATX power supply for on/off control.
 * Power on the Amiga Tower and enjoy.
 
+## Revision Info
+* Rev 1: Moved power LED from PG over to the 5V line. The PG signal turns off after the power supply tests itself. Important if you wanted to use it as a case LED.
+* Rev 0: Initial rev -- tested/working
+
 ## Misc
 This is an open source design. Feel free to do what you want with it.
