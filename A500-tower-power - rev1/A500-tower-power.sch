@@ -1,0 +1,318 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SamacSys_Parts:87427-2402 J1
+U 1 1 631FADBC
+P 5400 3250
+F 0 "J1" H 5850 3515 50  0000 C CNN
+F 1 "87427-2402" H 5850 3424 50  0000 C CNN
+F 2 "87427-2402" H 6150 3350 50  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/874270202_sd.pdf" H 6150 3250 50  0001 L CNN
+F 4 "Mini-Fit Jr. Header, 4.20mm Pitch, Right-Angle, without Flange, 24 Circuits, Tin (Sn) over Nickel (Ni) Plating  Series: 87427" H 6150 3150 50  0001 L CNN "Description"
+F 5 "10" H 6150 3050 50  0001 L CNN "Height"
+F 6 "538-87427-2402" H 6150 2950 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/87427-2402?qs=%252BgKeJhng5iXjW1c8K3Hk8A%3D%3D" H 6150 2850 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 6150 2750 50  0001 L CNN "Manufacturer_Name"
+F 9 "87427-2402" H 6150 2650 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5400 3250
+	1    0    0    -1  
+$EndComp
+Text Label 5300 3250 2    50   ~ 0
+3.3V
+Text Label 5300 3350 2    50   ~ 0
+12V
+Text Label 5300 3450 2    50   ~ 0
+12V
+Text Label 5300 3550 2    50   ~ 0
+5VSB
+Text Label 5300 3650 2    50   ~ 0
+PG
+Text Label 5300 3750 2    50   ~ 0
+GND
+Text Label 5300 3850 2    50   ~ 0
+5V
+Text Label 5300 3950 2    50   ~ 0
+GND
+Text Label 5300 4050 2    50   ~ 0
+5V
+Text Label 5300 4150 2    50   ~ 0
+GND
+Text Label 5300 4250 2    50   ~ 0
+3.3V
+Text Label 5300 4350 2    50   ~ 0
+3.3V
+Text Label 6400 3250 0    50   ~ 0
+GND
+Text Label 6400 3350 0    50   ~ 0
+5V
+Text Label 6400 3450 0    50   ~ 0
+5V
+Text Label 6400 3550 0    50   ~ 0
+5V
+NoConn ~ 6300 3650
+Text Label 6400 3750 0    50   ~ 0
+GND
+Text Label 6400 3850 0    50   ~ 0
+GND
+Text Label 6400 3950 0    50   ~ 0
+GND
+Text Label 6400 4050 0    50   ~ 0
+PS-ON
+Text Label 6400 4150 0    50   ~ 0
+GND
+Text Label 6400 4250 0    50   ~ 0
+-12V
+Text Label 6400 4350 0    50   ~ 0
+3.3V
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 631FE3E6
+P 4150 3550
+F 0 "J3" H 4230 3542 50  0000 L CNN
+F 1 "Conn_01x02" H 4230 3451 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4150 3550 50  0001 C CNN
+F 3 "~" H 4150 3550 50  0001 C CNN
+	1    4150 3550
+	1    0    0    -1  
+$EndComp
+Text Label 3850 3550 2    50   ~ 0
+PS-ON
+Text Label 3850 3650 2    50   ~ 0
+GND
+Wire Wire Line
+	3850 3550 3950 3550
+Wire Wire Line
+	3850 3650 3950 3650
+Wire Wire Line
+	6300 3250 6400 3250
+Wire Wire Line
+	6300 3350 6400 3350
+Wire Wire Line
+	6300 3450 6400 3450
+Wire Wire Line
+	6300 3550 6400 3550
+Wire Wire Line
+	6300 3750 6400 3750
+Wire Wire Line
+	6300 3850 6400 3850
+Wire Wire Line
+	6300 3950 6400 3950
+Wire Wire Line
+	6300 4050 6400 4050
+Wire Wire Line
+	6300 4150 6400 4150
+Wire Wire Line
+	6300 4250 6400 4250
+Wire Wire Line
+	6300 4350 6400 4350
+Wire Wire Line
+	5300 4350 5400 4350
+Wire Wire Line
+	5300 4250 5400 4250
+Wire Wire Line
+	5300 4150 5400 4150
+Wire Wire Line
+	5300 4050 5400 4050
+Wire Wire Line
+	5300 3950 5400 3950
+Wire Wire Line
+	5300 3850 5400 3850
+Wire Wire Line
+	5300 3750 5400 3750
+Wire Wire Line
+	5300 3650 5400 3650
+Wire Wire Line
+	5300 3550 5400 3550
+Wire Wire Line
+	5300 3450 5400 3450
+Wire Wire Line
+	5300 3350 5400 3350
+Wire Wire Line
+	5300 3250 5400 3250
+Text Notes 3900 3400 0    50   ~ 0
+POWER SWITCH
+Text Notes 5500 2900 0    50   ~ 0
+ATX 24-PIN POWER
+$Comp
+L Device:R_Small R1
+U 1 1 63205DD2
+P 4400 4250
+F 0 "R1" V 4596 4250 50  0000 C CNN
+F 1 "1k" V 4505 4250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4400 4250 50  0001 C CNN
+F 3 "~" H 4400 4250 50  0001 C CNN
+	1    4400 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D1
+U 1 1 63207966
+P 4000 4250
+F 0 "D1" H 4000 4485 50  0000 C CNN
+F 1 "LED_3mm" H 4000 4394 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" V 4000 4250 50  0001 C CNN
+F 3 "~" V 4000 4250 50  0001 C CNN
+	1    4000 4250
+	1    0    0    -1  
+$EndComp
+Text Label 4700 4250 0    50   ~ 0
+5V
+Text Label 3700 4250 2    50   ~ 0
+GND
+Wire Wire Line
+	3700 4250 3900 4250
+Wire Wire Line
+	4100 4250 4300 4250
+Wire Wire Line
+	4500 4250 4700 4250
+Text Notes 3750 3950 0    50   ~ 0
+POWER GOOD INDICATION
+$Comp
+L SamacSys_Parts:15-24-4449 J2
+U 1 1 632161D9
+P 7250 3650
+F 0 "J2" H 7878 3546 50  0000 L CNN
+F 1 "15-24-4449" H 7878 3455 50  0000 L CNN
+F 2 "SHDR4W166P0X508_1X4_2326X828X1066P" H 7900 3750 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/15-24-4449.pdf" H 7900 3650 50  0001 L CNN
+F 4 "MOLEX - 15-24-4449 - HEADER, ICAL MOUNT, 4WAY" H 7900 3550 50  0001 L CNN "Description"
+F 5 "10.66" H 7900 3450 50  0001 L CNN "Height"
+F 6 "538-15-24-4449" H 7900 3350 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-15-24-4449" H 7900 3250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 7900 3150 50  0001 L CNN "Manufacturer_Name"
+F 9 "15-24-4449" H 7900 3050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7250 3650
+	1    0    0    -1  
+$EndComp
+Text Label 7100 3650 2    50   ~ 0
+12V
+Text Label 7100 3750 2    50   ~ 0
+-12V
+Text Label 7100 3850 2    50   ~ 0
+5V
+Text Label 7100 3950 2    50   ~ 0
+GND
+Wire Wire Line
+	7100 3650 7250 3650
+Wire Wire Line
+	7100 3750 7250 3750
+Wire Wire Line
+	7100 3850 7250 3850
+Wire Wire Line
+	7100 3950 7250 3950
+Text Notes 7200 3450 0    50   ~ 0
+MOLEX TO AMIGA PLUG
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6321AEDE
+P 5400 5000
+F 0 "H1" H 5500 5046 50  0000 L CNN
+F 1 "MountingHole" H 5500 4955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.7mm_Pad_Via" H 5400 5000 50  0001 C CNN
+F 3 "~" H 5400 5000 50  0001 C CNN
+	1    5400 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6321C1E2
+P 6200 5000
+F 0 "H2" H 6300 5046 50  0000 L CNN
+F 1 "MountingHole" H 6300 4955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.7mm_Pad_Via" H 6200 5000 50  0001 C CNN
+F 3 "~" H 6200 5000 50  0001 C CNN
+	1    6200 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:22-23-2031 J6
+U 1 1 6321CE39
+P 6950 2300
+F 0 "J6" H 7578 2246 50  0000 L CNN
+F 1 "22-23-2031" H 7578 2155 50  0000 L CNN
+F 2 "SHDR3W82P0X254_1X3_747X635X818P" H 7600 2400 50  0001 L CNN
+F 3 "http://www.molex.com/webdocs/datasheets/pdf/en-us//0022232031_PCB_HEADERS.pdf" H 7600 2300 50  0001 L CNN
+F 4 "2.54mm,header,KK,vert,Sn,frictn lock,3w Molex KK 254 Series, Series Number 6373, 2.54mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole, Solder Termination" H 7600 2200 50  0001 L CNN "Description"
+F 5 "8.18" H 7600 2100 50  0001 L CNN "Height"
+F 6 "538-22-23-2031" H 7600 2000 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/22-23-2031?qs=ILqg114nvd41XyIAFDpXfw%3D%3D" H 7600 1900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 7600 1800 50  0001 L CNN "Manufacturer_Name"
+F 9 "22-23-2031" H 7600 1700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6950 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:22-23-2031 J5
+U 1 1 6321F5E6
+P 5450 2300
+F 0 "J5" H 6078 2246 50  0000 L CNN
+F 1 "22-23-2031" H 6078 2155 50  0000 L CNN
+F 2 "SHDR3W82P0X254_1X3_747X635X818P" H 6100 2400 50  0001 L CNN
+F 3 "http://www.molex.com/webdocs/datasheets/pdf/en-us//0022232031_PCB_HEADERS.pdf" H 6100 2300 50  0001 L CNN
+F 4 "2.54mm,header,KK,vert,Sn,frictn lock,3w Molex KK 254 Series, Series Number 6373, 2.54mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole, Solder Termination" H 6100 2200 50  0001 L CNN "Description"
+F 5 "8.18" H 6100 2100 50  0001 L CNN "Height"
+F 6 "538-22-23-2031" H 6100 2000 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/22-23-2031?qs=ILqg114nvd41XyIAFDpXfw%3D%3D" H 6100 1900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 6100 1800 50  0001 L CNN "Manufacturer_Name"
+F 9 "22-23-2031" H 6100 1700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5450 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:22-23-2031 J4
+U 1 1 6322061B
+P 3950 2300
+F 0 "J4" H 4578 2246 50  0000 L CNN
+F 1 "22-23-2031" H 4578 2155 50  0000 L CNN
+F 2 "SHDR3W82P0X254_1X3_747X635X818P" H 4600 2400 50  0001 L CNN
+F 3 "http://www.molex.com/webdocs/datasheets/pdf/en-us//0022232031_PCB_HEADERS.pdf" H 4600 2300 50  0001 L CNN
+F 4 "2.54mm,header,KK,vert,Sn,frictn lock,3w Molex KK 254 Series, Series Number 6373, 2.54mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole, Solder Termination" H 4600 2200 50  0001 L CNN "Description"
+F 5 "8.18" H 4600 2100 50  0001 L CNN "Height"
+F 6 "538-22-23-2031" H 4600 2000 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/22-23-2031?qs=ILqg114nvd41XyIAFDpXfw%3D%3D" H 4600 1900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 4600 1800 50  0001 L CNN "Manufacturer_Name"
+F 9 "22-23-2031" H 4600 1700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3950 2300
+	1    0    0    -1  
+$EndComp
+Text Label 6850 2400 2    50   ~ 0
+12V
+Text Label 5350 2400 2    50   ~ 0
+12V
+Text Label 3850 2400 2    50   ~ 0
+12V
+Wire Wire Line
+	6850 2400 6950 2400
+Wire Wire Line
+	5350 2400 5450 2400
+Wire Wire Line
+	3850 2400 3950 2400
+Text Label 6850 2500 2    50   ~ 0
+GND
+Text Label 5350 2500 2    50   ~ 0
+GND
+Text Label 3850 2500 2    50   ~ 0
+GND
+NoConn ~ 6950 2300
+NoConn ~ 5450 2300
+NoConn ~ 3950 2300
+Wire Wire Line
+	3850 2500 3950 2500
+Wire Wire Line
+	5350 2500 5450 2500
+Wire Wire Line
+	6850 2500 6950 2500
+$EndSCHEMATC
