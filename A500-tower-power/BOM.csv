@@ -1,9 +1,0 @@
-Reference, Value, Footprint, Description, Manufacturer_Name, Manufacturer_Part_Number, Mouser Part Number
-D1,LED_3mm,LED_THT:LED_D3.0mm,,,,
-J1,87427-2402,87427-2402,"Mini-Fit Jr. Header, 4.20mm Pitch, Right-Angle, without Flange, 24 Circuits, Tin (Sn) over Nickel (Ni) Plating  Series: 87427",Molex,87427-2402,538-87427-2402
-J2,15-24-4449,SHDR4W166P0X508_1X4_2326X828X1066P,"MOLEX - 15-24-4449 - HEADER, ICAL MOUNT, 4WAY",Molex,15-24-4449,538-15-24-4449
-J3,Conn_01x02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,,,
-J4,22-23-2031,SHDR3W82P0X254_1X3_747X635X818P,"2.54mm,header,KK,vert,Sn,frictn lock,3w Molex KK 254 Series, Series Number 6373, 2.54mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole, Solder Termination",Molex,22-23-2031,538-22-23-2031
-J5,22-23-2031,SHDR3W82P0X254_1X3_747X635X818P,"2.54mm,header,KK,vert,Sn,frictn lock,3w Molex KK 254 Series, Series Number 6373, 2.54mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole, Solder Termination",Molex,22-23-2031,538-22-23-2031
-J6,22-23-2031,SHDR3W82P0X254_1X3_747X635X818P,"2.54mm,header,KK,vert,Sn,frictn lock,3w Molex KK 254 Series, Series Number 6373, 2.54mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole, Solder Termination",Molex,22-23-2031,538-22-23-2031
-R1,1k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,,,,
